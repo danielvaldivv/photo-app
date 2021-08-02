@@ -1,0 +1,36 @@
+{
+  "name": "curfundtypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "hello": "node types-TypeScript/dist/hello.js",
+    "any": "node types-TypeScript/dist/type-any.js",
+    "void": "node types-TypeScript/dist/type-void.js",
+    "null-undefined": "node types-TypeScript/dist/type-null-undefined.js",
+    "object": "node types-TypeScript/dist/type-object.js",
+    "array": "node types-TypeScript/dist/type-array-tuple.js",
+    "tupla": "node types-TypeScript/dist/type-tupla.js",
+    "enum": "node types-TypeScript/dist/type-enum.js",
+    "assert": "node types-TypeScript/dist/type-assert.js",
+    "function": "node types-TypeScript/dist/function.js",
+    "interfaces": "node types-TypeScript/dist/interfaces.js",
+    "herencia": "node types-TypeScript/dist/herencia-interfaces.js",
+    "clases": "node types-TypeScript/dist/clases.js",
+    "private": "node types-TypeScript/dist/clases-private.js",
+    "private-#": "node types-TypeScript/dist/clases-private-ecmascript.js",
+    "get-set": "node types-TypeScript/dist/clases-get-set.js",
+    "clases-herencia": "node types-TypeScript/dist/clases-herencia.js",
+    "main": "node dist/main.js",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.2.4",
+    "typescript": "^4.3.5",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
